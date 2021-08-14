@@ -34,9 +34,9 @@ namespace Nethermind.JsonRpc.Test.Modules.Eth
     public partial class EthRpcModuleTests
     {
         [TestCase("2", "earliest", "[0,10.5,20,60,90]", "\"result\":{\"oldestBlock\":\"0x0\",\"reward\":[[\"0x1\",\"0x1\",\"0x1\",\"0x2\",\"0x2\"]],\"baseFeePerGas\":[\"0x2\",\"0x2\"],\"gasUsedRatio\":[0.7]}")]
-        [TestCase("1", "latest", "[0,10.5,20,60,90]", "\"result\":{\"oldestBlock\":\"0x1\",\"reward\":[[\"0x0\",\"0x0\",\"0x0\",\"0x0\",\"0x3\"]],\"baseFeePerGas\":[\"0x3\",\"0x1\"],\"gasUsedRatio\":[0.5]}")]
+        [TestCase("1", "latest", "[0,10.5,20,60,90]", "\"result\":{\"oldestBlock\":\"0x1\",\"reward\":[[\"0x0\",\"0x0\",\"0x0\",\"0x0\",\"0x3\"]],\"baseFeePerGas\":[\"0x3\",\"0x3\"],\"gasUsedRatio\":[0.5]}")]
         [TestCase("1", "pending", "[0,10.5,20,60,90]", "\"error\":{\"code\":-32002,\"message\":\"newestBlock: Block is not available\"}")]
-        [TestCase("2", "0x01", "[0,10.5,20,60,90]", "\"result\":{\"oldestBlock\":\"0x0\",\"reward\":[[\"0x1\",\"0x1\",\"0x1\",\"0x2\",\"0x2\"],[\"0x0\",\"0x0\",\"0x0\",\"0x0\",\"0x3\"]],\"baseFeePerGas\":[\"0x2\",\"0x3\",\"0x1\"],\"gasUsedRatio\":[0.7,0.5]}")]
+        [TestCase("2", "0x01", "[0,10.5,20,60,90]", "\"result\":{\"oldestBlock\":\"0x0\",\"reward\":[[\"0x1\",\"0x1\",\"0x1\",\"0x2\",\"0x2\"],[\"0x0\",\"0x0\",\"0x0\",\"0x0\",\"0x3\"]],\"baseFeePerGas\":[\"0x2\",\"0x3\",\"0x3\"],\"gasUsedRatio\":[0.7,0.5]}")]
         public async Task Eth_feeHistory(string blockCount, string blockParameter, string rewardPercentiles,
             string expectedResult)
         {
@@ -62,7 +62,7 @@ namespace Nethermind.JsonRpc.Test.Modules.Eth
             Block firstBlock = Build.A.Block.
                 Genesis.
                 WithBaseFeePerGas(2).
-                WithGasUsed(7).
+                WithGasUsed(7). //Todo fix gas Used
                 WithGasLimit(10).
                 WithTransactions(tx1FirstBlock, tx2FirstBlock).
                 TestObject;
@@ -72,7 +72,6 @@ namespace Nethermind.JsonRpc.Test.Modules.Eth
                 WithGasUsed(5).
                 WithGasLimit(10).
                 WithTransactions(tx1SecondBlock, tx2SecondBlock).
-                WithHeader(Build.A.BlockHeader.WithBaseFee(3).WithGasLimit(10).TestObject).
                 TestObject;
             
             IBlockFinder blockFinder = Substitute.For<IBlockFinder>();
@@ -101,10 +100,10 @@ namespace Nethermind.JsonRpc.Test.Modules.Eth
             IReleaseSpec eip1559EnabledReleaseSpec = Substitute.For<IReleaseSpec>();
             eip1559EnabledReleaseSpec.IsEip1559Enabled.Returns(true);
             IReleaseSpec eip1559NotEnabledReleaseSpec = Substitute.For<IReleaseSpec>();
-            eip1559EnabledReleaseSpec.IsEip1559Enabled.Returns(false);
+            eip1559NotEnabledReleaseSpec.IsEip1559Enabled.Returns(false);
             ISpecProvider specProvider = Substitute.For<ISpecProvider>();
-            specProvider.GetSpec(Arg.Is<long>(l => l == 1)).Returns(eip1559EnabledReleaseSpec);
-            specProvider.GetSpec(Arg.Is<long>(l => l == 2)).Returns(eip1559NotEnabledReleaseSpec);
+            specProvider.GetSpec(Arg.Is<long>(l => l == 2)).Returns(eip1559EnabledReleaseSpec);
+            specProvider.GetSpec(Arg.Is<long>(l => l == 1)).Returns(eip1559NotEnabledReleaseSpec);
             FeeHistoryOracle feeHistoryOracle =
                 GetSubstitutedFeeHistoryOracle(blockFinder: blockFinder, receiptStorage: receiptStorage, specProvider: specProvider);
 
