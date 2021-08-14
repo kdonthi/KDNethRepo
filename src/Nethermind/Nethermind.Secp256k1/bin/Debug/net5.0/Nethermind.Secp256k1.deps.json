@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Nethermind.Secp256k1/1.0.0": {
+        "dependencies": {
+          "Nethermind.Native": "1.0.0"
+        },
+        "runtime": {
+          "Nethermind.Secp256k1.dll": {}
+        }
+      },
+      "Nethermind.Native/1.0.0": {
+        "runtime": {
+          "Nethermind.Native.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nethermind.Secp256k1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nethermind.Native/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/bin/Debug/net5.0/Nethermind.Logging.NLog.deps.json
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/bin/Debug/net5.0/Nethermind.Logging.NLog.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/bin/Debug/net5.0/ref/Nethermind.Logging.NLog.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/bin/Debug/net5.0/Nethermind.Logging.NLog.pdb
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/bin/Debug/net5.0/Nethermind.Logging.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/bin/Debug/net5.0/Nethermind.Logging.pdb
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/obj/Debug/net5.0/Nethermind.Logging.NLog.csproj.AssemblyReference.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/obj/Debug/net5.0/Nethermind.Logging.NLog.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/obj/Debug/net5.0/Nethermind.Logging.NLog.AssemblyInfoInputs.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/obj/Debug/net5.0/Nethermind.Logging.NLog.AssemblyInfo.cs
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/obj/Debug/net5.0/Nethermind.Logging.NLog.csproj.CoreCompileInputs.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/obj/Debug/net5.0/Nethermind.Logging.NLog.csproj.CopyComplete
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/obj/Debug/net5.0/Nethermind.Logging.NLog.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/obj/Debug/net5.0/ref/Nethermind.Logging.NLog.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/obj/Debug/net5.0/Nethermind.Logging.NLog.pdb

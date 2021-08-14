@@ -1,0 +1,130 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/Users/kdonthi/Library/Caches/JetBrains/Rider2021.1/resharper-host/temp/Rider/vAny/CoverageData/_Nethermind.1948146902/Snapshot/snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=183b43c9_002De0ba_002D4085_002Da7bf_002Deeec1c6dccfb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Will_connect_and_disconnect_on_peer_management #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::F6FDB712-1670-4B62-B341-EC6804815991::net5.0::Nethermind.Network.Test.PeerManagerTests.Will_connect_and_disconnect_on_peer_management&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::03A35C06-7016-40A7-8C03-12FA79BC6F89::net5.0::Nethermind.Mev.Test.BundlePoolTests.should_remove_bundle_when_simulation_fails&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1ac76c24_002Dee98_002D4b34_002Da7e4_002Dfb02410c1ddd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetFeeHistory_IfLondonEnabled_GasUsedRatioCalculatedCorrectly" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.FeeHistoryOracleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4867f539_002D144b_002D49be_002Db5d2_002D10a4de4440e6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetFeeHistory_NoTxsInBlock_ReturnsArrayOfZerosAsBigAsRewardPercentiles #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.FeeHistoryOracleTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4b8834c5_002D532b_002D4816_002D9397_002Da98d74d99054/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Eth_gasPrice_BlocksAvailableLessThanBlocksToCheckWith1559Tx_ShouldGiveCorrectResult #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests.Eth_gasPrice_BlocksAvailableLessThanBlocksToCheckWith1559Tx_ShouldGiveCorrectResult&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests.Eth_gasPrice_WhenHeadBlockIsNull_ThrowsException&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=52930308_002Dcc2c_002D4bb0_002D9cb6_002Ded361da5761a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Eth_gasPrice_BlocksAvailableLessThanBlocksToCheck_ShouldGiveCorrectResult" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests.Eth_gasPrice_BlocksAvailableLessThanBlocksToCheck_ShouldGiveCorrectResult&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=669af281_002Df6ad_002D4a1f_002D809d_002D41f9da372f1a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Eth_gasPrice_BlocksAvailableLessThanBlocksToCheckWith1559Tx_ShouldGiveCorrectResult(True,&amp;quot;0x3&amp;quot;)" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceEstimateTxInsertionManagerTests.AddValidTxAndReturnCount_IfBlockHasMoreThanThreeValidTx_AddOnlyThreeNew&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::2D5512D3-8E5B-4815-9791-A2220559AF92::net5.0::Nethermind.AuRa.Test.Contract.TxPriorityContractTests.priority_should_return_correctly&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::F6FDB712-1670-4B62-B341-EC6804815991::net5.0::Nethermind.Network.Test.PeerManagerTests.Will_connect_and_disconnect_on_peer_management&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=68e3827b_002D2035_002D4f47_002D95de_002D8fb239d55aab/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetFeeHistory_IfNewestBlockAndBlockCountAndRewardPercentilesAreValid_ResultIsSuccessful" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.FeeHistoryOracleTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests.Eth_feeHistory&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6b8023a1_002Ddc93_002D4b7c_002D8c36_002Dcba5ff2f3e1e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetFeeHistory_IfRewardPercentilesContainInvalidNumber_ResultsInFailure" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.FeeHistoryOracleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7036215a_002D2b8a_002D4c4f_002Da9e1_002D8ce0991dadb1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddValidTxAndReturnCount_NonEip1559TxsWithEffectivePriceLessThanIgnoreUnder_ShouldNotHaveGasPriceInTxGasPriceList" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceOracleTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.FeeHistoryOracleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=82c27639_002D3010_002D4e5b_002D84c7_002D84142e350959/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddValidTxAndReturnCount_WhenNotEip1559Txs_EffectiveGasPriceProperlyCalculated" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceEstimateTxInsertionManagerTests.AddValidTxAndReturnCount_WhenNotEip1559Txs_EffectiveGasPriceProperlyCalculated&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=84218d92_002D7b05_002D4ec9_002Db238_002D30654016f4ee/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Eth_gasPrice_NumTxInMinBlocksGreaterThanBlockLimit_GetTxFromBlockLimitBlocks" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests.Eth_gasPrice_NumTxInMinBlocksGreaterThanBlockLimit_GetTxFromBlockLimitBlocks&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af773e10_002D1d70_002D4da0_002Dba96_002D4ba786034163/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Eth_gasPrice_BlocksAvailableLessThanBlocksToCheckWith1559Tx_ShouldGiveCorrectResult" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cbf333c0_002D34a5_002D425a_002Db41c_002D9aaf8bbe110b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddValidTxAndReturnCount_WhenEip1559Txs_EffectiveGasPriceProperlyCalculated" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceEstimateTxInsertionManagerTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceOracleTests.GasPriceEstimate_NoChangeInHeadBlock_ReturnsPreviousGasPrice&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceOracleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d1fc1e21_002D22c0_002D4e7f_002Da691_002Dc04c94b88f9d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetFeeHistory_IfLastBlockIsEarliestBlock_LastBlockNumberSetToGenesisBlockNumber" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.FeeHistoryOracleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d6011f01_002D9d15_002D42b0_002Db114_002D778281449ad4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Will_connect_and_disconnect_on_peer_management" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::F6FDB712-1670-4B62-B341-EC6804815991::net5.0::Nethermind.Network.Test.PeerManagerTests.Will_connect_and_disconnect_on_peer_management&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d8568592_002Db60f_002D4cbf_002D9514_002Da6b3b49b22be/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddValidTxAndReturnCount_IfBlockHasMoreThanThreeValidTx_AddOnlyThreeNew" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceEstimateTxInsertionManagerTests.AddValidTxAndReturnCount_IfBlockHasMoreThanThreeValidTx_AddOnlyThreeNew&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceEstimateTxInsertionManagerTests.AddValidTxAndReturnCount_IfBlockHasMoreThanThreeValidTxs_OnlyAddTxsWithLowestGasPrices&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceEstimateTxInsertionManagerTests.AddValidTxAndReturnCount_TxsWithPriceLessThanIgnoreUnder_ShouldNotHaveGasPriceInTxGasPriceList&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceEstimateTxInsertionManagerTests.AddValidTxAndReturnCount_TxsSentByMiner_ShouldNotHaveGasPriceInTxGasPriceList&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceEstimateTxInsertionManagerTests.AddValidTxAndReturnCount_WhenNotEip1559Txs_EffectiveGasPriceProperlyCalculated&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceEstimateTxInsertionManagerTests.AddValidTxAndReturnCount_IfNoTxsInABlock_DefaultPriceAddedToListInstead&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceEstimateTxInsertionManagerTests.AddValidTxAndReturnCount_WhenEip1559Txs_EffectiveGasPriceProperlyCalculated&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ddcd8eb6_002Df305_002D4d95_002D9ead_002D2770c9baf77d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Eth_gasPrice_BlocksAvailableLessThanBlocksToCheck_ShouldGiveCorrectResult #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests.Eth_gasPrice_BlocksAvailableLessThanBlocksToCheck_ShouldGiveCorrectResult&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e654942f_002D450e_002D4c6b_002D836e_002D805bfba69ad8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Eth_estimateGas_web3_should_return_insufficient_balance_error" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e66c58e3_002Dc960_002D4967_002Dbaa3_002D967a415828aa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ProcessBlock_BlockFeeInfoBlockParameterEmptyAfterInitialization_ReturnsNullAndLogsError" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.GasPriceOracleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea9d40ae_002Dfde7_002D44ad_002D8033_002Df4fcd55eeddc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Eth_gasPrice_GivenValidHeadBlock_CallsGasPriceEstimateFromGasPriceOracle" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.Eth.EthRpcModuleTests.Eth_gasPrice_GivenValidHeadBlock_CallsGasPriceEstimateFromGasPriceOracle&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f2e7ffa2_002D82e8_002D4bb8_002Da974_002D64cec20b7e67/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetFeeHistory_NoTxsInBlock_ReturnsArrayOfZerosAsBigAsRewardPercentiles" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::E9B7F7DC-7FE0-4EAC-B1C4-C9592B266A2A::net5.0::Nethermind.JsonRpc.Test.Modules.FeeHistoryOracleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

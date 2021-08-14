@@ -1,0 +1,2597 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain.Test.Runner/Nethermind.Blockchain.Test.Runner.csproj": {}
+  },
+  "projects": {
+    "/Users/kdonthi/RiderProjects/nethermind/src/int256/src/Nethermind.Int256/Nethermind.Int256.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/int256/src/Nethermind.Int256/Nethermind.Int256.csproj",
+        "projectName": "Nethermind.Int256",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/int256/src/Nethermind.Int256/Nethermind.Int256.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/int256/src/Nethermind.Int256/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Math.Gmp.Native/MathGmp.Native/MathGmp.Native.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Math.Gmp.Native/MathGmp.Native/MathGmp.Native.csproj",
+        "projectName": "MathGmp.Native",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Math.Gmp.Native/MathGmp.Native/MathGmp.Native.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Math.Gmp.Native/MathGmp.Native/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EWSoftware.SHFB": {
+              "target": "Package",
+              "version": "[2020.3.6, )"
+            },
+            "EWSoftware.SHFB.NETFramework": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.Test.Base/Ethereum.Test.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.Test.Base/Ethereum.Test.Base.csproj",
+        "projectName": "Ethereum.Test.Base",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.Test.Base/Ethereum.Test.Base.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.Test.Base/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus.Ethash/Nethermind.Consensus.Ethash.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus.Ethash/Nethermind.Consensus.Ethash.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus/Nethermind.Consensus.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus/Nethermind.Consensus.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core.Test/Nethermind.Core.Test.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core.Test/Nethermind.Core.Test.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Abi/Nethermind.Abi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Abi/Nethermind.Abi.csproj",
+        "projectName": "Nethermind.Abi",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Abi/Nethermind.Abi.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Abi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MathNet.Numerics.FSharp": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Api/Nethermind.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Api/Nethermind.Api.csproj",
+        "projectName": "Nethermind.Api",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Api/Nethermind.Api.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Facade/Nethermind.Facade.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Facade/Nethermind.Facade.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Grpc/Nethermind.Grpc.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Grpc/Nethermind.Grpc.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.JsonRpc/Nethermind.JsonRpc.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.JsonRpc/Nethermind.JsonRpc.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Monitoring/Nethermind.Monitoring.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Monitoring/Nethermind.Monitoring.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network/Nethermind.Network.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network/Nethermind.Network.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.WebSockets/Nethermind.WebSockets.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.WebSockets/Nethermind.WebSockets.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain.Test.Runner/Nethermind.Blockchain.Test.Runner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain.Test.Runner/Nethermind.Blockchain.Test.Runner.csproj",
+        "projectName": "Nethermind.Blockchain.Test.Runner",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain.Test.Runner/Nethermind.Blockchain.Test.Runner.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain.Test.Runner/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.Test.Base/Ethereum.Test.Base.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.Test.Base/Ethereum.Test.Base.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/Nethermind.Logging.NLog.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/Nethermind.Logging.NLog.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj",
+        "projectName": "Nethermind.Blockchain",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Abi/Nethermind.Abi.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Abi/Nethermind.Abi.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus/Nethermind.Consensus.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus/Nethermind.Consensus.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Db/Nethermind.Db.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Db/Nethermind.Db.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network.Stats/Nethermind.Network.Stats.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network.Stats/Nethermind.Network.Stats.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Specs/Nethermind.Specs.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Specs/Nethermind.Specs.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.State/Nethermind.State.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.State/Nethermind.State.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.TxPool/Nethermind.TxPool.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.TxPool/Nethermind.TxPool.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[13.2.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj",
+        "projectName": "Nethermind.Config",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus.Ethash/Nethermind.Consensus.Ethash.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus.Ethash/Nethermind.Consensus.Ethash.csproj",
+        "projectName": "Nethermind.Consensus.Ethash",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus.Ethash/Nethermind.Consensus.Ethash.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus.Ethash/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Api/Nethermind.Api.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Api/Nethermind.Api.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus/Nethermind.Consensus.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus/Nethermind.Consensus.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Specs/Nethermind.Specs.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Specs/Nethermind.Specs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus/Nethermind.Consensus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus/Nethermind.Consensus.csproj",
+        "projectName": "Nethermind.Consensus",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus/Nethermind.Consensus.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Consensus/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.TxPool/Nethermind.TxPool.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.TxPool/Nethermind.TxPool.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core.Test/Nethermind.Core.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core.Test/Nethermind.Core.Test.csproj",
+        "projectName": "Nethermind.Core.Test",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core.Test/Nethermind.Core.Test.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network/Nethermind.Network.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network/Nethermind.Network.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj",
+        "projectName": "Nethermind.Core",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/int256/src/Nethermind.Int256/Nethermind.Int256.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/int256/src/Nethermind.Int256/Nethermind.Int256.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/Nethermind.HashLib.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/Nethermind.HashLib.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Secp256k1/Nethermind.Secp256k1.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Secp256k1/Nethermind.Secp256k1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj",
+        "projectName": "Nethermind.Crypto",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/Nethermind.Native.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/Nethermind.Native.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.DataProtection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.Extensions": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.8.9, )"
+            },
+            "System.Security.Cryptography.ProtectedData": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Db/Nethermind.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Db/Nethermind.Db.csproj",
+        "projectName": "Nethermind.Db",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Db/Nethermind.Db.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Db/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj",
+        "projectName": "Nethermind.Evm",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Evm/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Math.Gmp.Native/MathGmp.Native/MathGmp.Native.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Math.Gmp.Native/MathGmp.Native/MathGmp.Native.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.State/Nethermind.State.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.State/Nethermind.State.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Facade/Nethermind.Facade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Facade/Nethermind.Facade.csproj",
+        "projectName": "Nethermind.Facade",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Facade/Nethermind.Facade.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Facade/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Wallet/Nethermind.Wallet.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Wallet/Nethermind.Wallet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Grpc/Nethermind.Grpc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Grpc/Nethermind.Grpc.csproj",
+        "projectName": "Nethermind.Grpc",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Grpc/Nethermind.Grpc.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Grpc/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Json/Nethermind.Serialization.Json.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Json/Nethermind.Serialization.Json.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "Grpc": {
+              "target": "Package",
+              "version": "[2.34.1, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.34.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/Nethermind.HashLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/Nethermind.HashLib.csproj",
+        "projectName": "Nethermind.HashLib",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/Nethermind.HashLib.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Security.Cryptography.Algorithms": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.JsonRpc/Nethermind.JsonRpc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.JsonRpc/Nethermind.JsonRpc.csproj",
+        "projectName": "Nethermind.JsonRpc",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.JsonRpc/Nethermind.JsonRpc.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.JsonRpc/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Abi/Nethermind.Abi.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Abi/Nethermind.Abi.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Evm/Nethermind.Evm.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Facade/Nethermind.Facade.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Facade/Nethermind.Facade.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Monitoring/Nethermind.Monitoring.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Monitoring/Nethermind.Monitoring.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network/Nethermind.Network.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network/Nethermind.Network.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Wallet/Nethermind.Wallet.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Wallet/Nethermind.Wallet.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.WebSockets/Nethermind.WebSockets.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.WebSockets/Nethermind.WebSockets.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Jint": {
+              "target": "Package",
+              "version": "[2.11.58, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[13.2.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.KeyStore/Nethermind.KeyStore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.KeyStore/Nethermind.KeyStore.csproj",
+        "projectName": "Nethermind.KeyStore",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.KeyStore/Nethermind.KeyStore.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.KeyStore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Json/Nethermind.Serialization.Json.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Json/Nethermind.Serialization.Json.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701",
+            "NU1702"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "SCrypt": {
+              "target": "Package",
+              "version": "[2.0.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/Nethermind.Logging.NLog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/Nethermind.Logging.NLog.csproj",
+        "projectName": "Nethermind.Logging.NLog",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/Nethermind.Logging.NLog.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj",
+        "projectName": "Nethermind.Logging",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Monitoring/Nethermind.Monitoring.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Monitoring/Nethermind.Monitoring.csproj",
+        "projectName": "Nethermind.Monitoring",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Monitoring/Nethermind.Monitoring.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Monitoring/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "prometheus-net": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/Nethermind.Native.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/Nethermind.Native.csproj",
+        "projectName": "Nethermind.Native",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/Nethermind.Native.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network.Stats/Nethermind.Network.Stats.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network.Stats/Nethermind.Network.Stats.csproj",
+        "projectName": "Nethermind.Network.Stats",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network.Stats/Nethermind.Network.Stats.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network.Stats/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network/Nethermind.Network.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network/Nethermind.Network.csproj",
+        "projectName": "Nethermind.Network",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network/Nethermind.Network.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.KeyStore/Nethermind.KeyStore.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.KeyStore/Nethermind.KeyStore.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network.Stats/Nethermind.Network.Stats.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Network.Stats/Nethermind.Network.Stats.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Synchronization/Nethermind.Synchronization.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Synchronization/Nethermind.Synchronization.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Crc32.NET": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "DotNetty.Handlers": {
+              "target": "Package",
+              "version": "[0.6.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.8.9, )"
+            },
+            "Snappy.Standard": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Secp256k1/Nethermind.Secp256k1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Secp256k1/Nethermind.Secp256k1.csproj",
+        "projectName": "Nethermind.Secp256k1",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Secp256k1/Nethermind.Secp256k1.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Secp256k1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/Nethermind.Native.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/Nethermind.Native.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Json/Nethermind.Serialization.Json.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Json/Nethermind.Serialization.Json.csproj",
+        "projectName": "Nethermind.Serialization.Json",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Json/Nethermind.Serialization.Json.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Json/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj",
+        "projectName": "Nethermind.Serialization.Rlp",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Specs/Nethermind.Specs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Specs/Nethermind.Specs.csproj",
+        "projectName": "Nethermind.Specs",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Specs/Nethermind.Specs.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Specs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Json/Nethermind.Serialization.Json.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Json/Nethermind.Serialization.Json.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.State/Nethermind.State.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.State/Nethermind.State.csproj",
+        "projectName": "Nethermind.State",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.State/Nethermind.State.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.State/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Db/Nethermind.Db.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Db/Nethermind.Db.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Specs/Nethermind.Specs.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Specs/Nethermind.Specs.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Trie/Nethermind.Trie.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Trie/Nethermind.Trie.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Synchronization/Nethermind.Synchronization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Synchronization/Nethermind.Synchronization.csproj",
+        "projectName": "Nethermind.Synchronization",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Synchronization/Nethermind.Synchronization.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Synchronization/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Blockchain/Nethermind.Blockchain.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Trie/Nethermind.Trie.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Trie/Nethermind.Trie.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Trie/Nethermind.Trie.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Trie/Nethermind.Trie.csproj",
+        "projectName": "Nethermind.Trie",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Trie/Nethermind.Trie.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Trie/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.TxPool/Nethermind.TxPool.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.TxPool/Nethermind.TxPool.csproj",
+        "projectName": "Nethermind.TxPool",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.TxPool/Nethermind.TxPool.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.TxPool/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Config/Nethermind.Config.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Crypto/Nethermind.Crypto.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Db/Nethermind.Db.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Db/Nethermind.Db.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[13.2.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Wallet/Nethermind.Wallet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Wallet/Nethermind.Wallet.csproj",
+        "projectName": "Nethermind.Wallet",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Wallet/Nethermind.Wallet.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Wallet/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.KeyStore/Nethermind.KeyStore.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.KeyStore/Nethermind.KeyStore.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Rlp/Nethermind.Serialization.Rlp.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.TxPool/Nethermind.TxPool.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.TxPool/Nethermind.TxPool.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[13.2.9, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.WebSockets/Nethermind.WebSockets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.WebSockets/Nethermind.WebSockets.csproj",
+        "projectName": "Nethermind.WebSockets",
+        "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.WebSockets/Nethermind.WebSockets.csproj",
+        "packagesPath": "/Users/kdonthi/.nuget/packages/",
+        "outputPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.WebSockets/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/NuGet.Config",
+          "/Users/kdonthi/RiderProjects/nethermind/src/NuGet.Config",
+          "/Users/kdonthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Core/Nethermind.Core.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging/Nethermind.Logging.csproj"
+              },
+              "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Json/Nethermind.Serialization.Json.csproj": {
+                "projectPath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Serialization.Json/Nethermind.Serialization.Json.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.WebSockets": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kdonthi/.dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

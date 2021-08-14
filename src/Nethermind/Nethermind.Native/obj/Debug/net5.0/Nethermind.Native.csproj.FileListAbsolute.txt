@@ -1,0 +1,12 @@
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/bin/Debug/net5.0/Nethermind.Native.deps.json
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/bin/Debug/net5.0/Nethermind.Native.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/bin/Debug/net5.0/ref/Nethermind.Native.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/bin/Debug/net5.0/Nethermind.Native.pdb
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/obj/Debug/net5.0/Nethermind.Native.csproj.AssemblyReference.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/obj/Debug/net5.0/Nethermind.Native.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/obj/Debug/net5.0/Nethermind.Native.AssemblyInfoInputs.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/obj/Debug/net5.0/Nethermind.Native.AssemblyInfo.cs
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/obj/Debug/net5.0/Nethermind.Native.csproj.CoreCompileInputs.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/obj/Debug/net5.0/Nethermind.Native.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/obj/Debug/net5.0/ref/Nethermind.Native.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Native/obj/Debug/net5.0/Nethermind.Native.pdb

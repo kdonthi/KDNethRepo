@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "CsCC2Aeza+jcXR/ZpC4jvKj6lh538g2L1VjZ62Vc7KWuj+x5j07WxHC12VEZi8vJc/u1xQiCPC5wso7RfvJdng==",
+  "success": true,
+  "projectFilePath": "/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.NLog/Nethermind.Logging.NLog.csproj",
+  "expectedPackageFiles": [
+    "/Users/kdonthi/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/kdonthi/.nuget/packages/nlog/4.7.7/nlog.4.7.7.nupkg.sha512"
+  ],
+  "logs": []
+}

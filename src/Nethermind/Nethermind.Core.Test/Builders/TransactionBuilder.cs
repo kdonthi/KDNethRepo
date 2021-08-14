@@ -1,0 +1,198 @@
+﻿//  Copyright (c) 2021 Demerzel Solutions Limited
+//  This file is part of the Nethermind library.
+// 
+//  The Nethermind library is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU Lesser General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+// 
+//  The Nethermind library is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+//  GNU Lesser General Public License for more details.
+// 
+//  You should have received a copy of the GNU Lesser General Public License
+//  along with the Nethermind. If not, see <http://www.gnu.org/licenses/>.
+
+using System;
+using System.Collections.Generic;
+using Nethermind.Core.Crypto;
+using Nethermind.Core.Eip2930;
+using Nethermind.Crypto;
+using Nethermind.Int256;
+using Nethermind.Logging;
+
+namespace Nethermind.Core.Test.Builders
+{
+    public class TransactionBuilder<T> : BuilderBase<T> where T : Transaction, new()
+    {   
+        public TransactionBuilder()
+        {
+            TestObjectInternal = new T
+            {
+                GasPrice = 1,
+                GasLimit = Transaction.BaseTxGasCost,
+                To = Address.Zero,
+                Nonce = 0,
+                Value = 1,
+                Data = Array.Empty<byte>(),
+                Timestamp = 0
+            };
+        }
+
+        public TransactionBuilder<T> WithNonce(UInt256 nonce)
+        {
+            TestObjectInternal.Nonce = nonce;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithHash(Keccak? hash)
+        {
+            TestObjectInternal.Hash = hash;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithTo(Address address)
+        {
+            TestObjectInternal.To = address;
+            return this;
+        }
+        
+        public TransactionBuilder<T> To(Address address)
+        {
+            TestObjectInternal.To = address;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithData(byte[] data)
+        {
+            TestObjectInternal.Data = data;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithCode(byte[] data)
+        {
+            TestObjectInternal.Data = data;
+            TestObjectInternal.To = null;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithChainId(ulong chainId)
+        {
+            TestObjectInternal.ChainId = chainId;
+            return this;
+        }
+
+        public TransactionBuilder<T> WithGasPrice(UInt256 gasPrice)
+        {
+            TestObjectInternal.GasPrice = gasPrice;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithGasLimit(long gasLimit)
+        {
+            TestObjectInternal.GasLimit = gasLimit;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithMaxFeePerGas(UInt256 feeCap)
+        {
+            TestObjectInternal.DecodedMaxFeePerGas = feeCap;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithMaxPriorityFeePerGas(UInt256 maxPriorityFeePerGas)
+        {
+            TestObjectInternal.GasPrice = maxPriorityFeePerGas;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithGasBottleneck(UInt256 gasBottleneck)
+        {
+            TestObjectInternal.GasBottleneck = gasBottleneck;
+            return this;
+        }
+
+        public TransactionBuilder<T> WithTimestamp(UInt256 timestamp)
+        {
+            TestObject.Timestamp = timestamp;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithValue(UInt256 value)
+        {
+            TestObjectInternal.Value = value;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithValue(int value)
+        {
+            TestObjectInternal.Value = (UInt256) value;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithAccessList(AccessList accessList)
+        {
+            TestObjectInternal.AccessList = accessList;
+            TestObjectInternal.ChainId = TestObjectInternal.Signature?.ChainId ?? TestObjectInternal.ChainId;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithSenderAddress(Address address)
+        {
+            TestObjectInternal.SenderAddress = address;
+            return this;
+        }
+        
+        public TransactionBuilder<T> WithSignature(Signature signature)
+        {
+            TestObjectInternal.Signature = signature;
+            return this;
+        }
+        
+        public TransactionBuilder<T> Signed(IEthereumEcdsa ecdsa, PrivateKey privateKey, bool isEip155Enabled = true)
+        {
+            ecdsa.Sign(privateKey, TestObjectInternal, isEip155Enabled);
+            return this;
+        }
+
+        // TODO: auto create ecdsa here
+        public TransactionBuilder<T> SignedAndResolved(IEthereumEcdsa ecdsa, PrivateKey privateKey, bool isEip155Enabled = true)
+        {
+            // make sure that you do not change anything in the tx after signing as this will lead to a different recovered address
+            ecdsa.Sign(privateKey, TestObjectInternal, isEip155Enabled);
+            TestObjectInternal.SenderAddress = privateKey.Address;
+            return this;
+        }
+        
+        public TransactionBuilder<T> SignedAndResolved(PrivateKey? privateKey = null)
+        {
+            privateKey ??= TestItem.IgnoredPrivateKey;
+            EthereumEcdsa ecdsa = new EthereumEcdsa(TestObjectInternal.ChainId ?? ChainId.Mainnet, LimboLogs.Instance);
+            ecdsa.Sign(privateKey, TestObjectInternal, true);
+            TestObjectInternal.SenderAddress = privateKey.Address;
+            return this;
+        }
+
+        public TransactionBuilder<T> DeliveredBy(PublicKey publicKey)
+        {
+            TestObjectInternal.DeliveredBy = publicKey;
+            return this;
+        }
+
+        protected override void BeforeReturn()
+        {
+            base.BeforeReturn();
+            if (TestObjectInternal.IsSigned)
+            {
+                TestObjectInternal.Hash = TestObjectInternal.CalculateHash();
+            }
+        }
+
+        public TransactionBuilder<T> WithType(TxType txType)
+        {
+            TestObjectInternal.Type = txType;
+            return this;
+        }
+    }
+}

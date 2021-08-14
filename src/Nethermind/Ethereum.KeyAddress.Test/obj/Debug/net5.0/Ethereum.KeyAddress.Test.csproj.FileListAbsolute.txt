@@ -1,0 +1,6 @@
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.KeyAddress.Test/bin/Debug/net5.0/CoverletSourceRootsMapping
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.KeyAddress.Test/obj/Debug/net5.0/Ethereum.KeyAddress.Test.csproj.AssemblyReference.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.KeyAddress.Test/obj/Debug/net5.0/Ethereum.KeyAddress.Test.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.KeyAddress.Test/obj/Debug/net5.0/Ethereum.KeyAddress.Test.AssemblyInfoInputs.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.KeyAddress.Test/obj/Debug/net5.0/Ethereum.KeyAddress.Test.AssemblyInfo.cs
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.KeyAddress.Test/obj/Debug/net5.0/Ethereum.KeyAddress.Test.csproj.CoreCompileInputs.cache

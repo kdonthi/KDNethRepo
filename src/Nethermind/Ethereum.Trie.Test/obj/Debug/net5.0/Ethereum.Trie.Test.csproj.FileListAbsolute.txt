@@ -1,0 +1,6 @@
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.Trie.Test/bin/Debug/net5.0/CoverletSourceRootsMapping
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.Trie.Test/obj/Debug/net5.0/Ethereum.Trie.Test.csproj.AssemblyReference.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.Trie.Test/obj/Debug/net5.0/Ethereum.Trie.Test.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.Trie.Test/obj/Debug/net5.0/Ethereum.Trie.Test.AssemblyInfoInputs.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.Trie.Test/obj/Debug/net5.0/Ethereum.Trie.Test.AssemblyInfo.cs
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Ethereum.Trie.Test/obj/Debug/net5.0/Ethereum.Trie.Test.csproj.CoreCompileInputs.cache

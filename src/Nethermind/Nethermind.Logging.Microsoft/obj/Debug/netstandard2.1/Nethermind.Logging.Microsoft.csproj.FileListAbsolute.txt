@@ -1,0 +1,9 @@
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.Microsoft/bin/Debug/netstandard2.1/Nethermind.Logging.Microsoft.deps.json
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.Microsoft/bin/Debug/netstandard2.1/Nethermind.Logging.Microsoft.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.Microsoft/bin/Debug/netstandard2.1/Nethermind.Logging.Microsoft.pdb
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.Microsoft/obj/Debug/netstandard2.1/Nethermind.Logging.Microsoft.csproj.AssemblyReference.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.Microsoft/obj/Debug/netstandard2.1/Nethermind.Logging.Microsoft.AssemblyInfoInputs.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.Microsoft/obj/Debug/netstandard2.1/Nethermind.Logging.Microsoft.AssemblyInfo.cs
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.Microsoft/obj/Debug/netstandard2.1/Nethermind.Logging.Microsoft.csproj.CoreCompileInputs.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.Microsoft/obj/Debug/netstandard2.1/Nethermind.Logging.Microsoft.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.Logging.Microsoft/obj/Debug/netstandard2.1/Nethermind.Logging.Microsoft.pdb

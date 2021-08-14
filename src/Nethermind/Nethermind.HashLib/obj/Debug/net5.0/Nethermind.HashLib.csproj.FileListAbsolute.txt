@@ -1,0 +1,12 @@
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/bin/Debug/net5.0/Nethermind.HashLib.deps.json
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/bin/Debug/net5.0/Nethermind.HashLib.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/bin/Debug/net5.0/ref/Nethermind.HashLib.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/bin/Debug/net5.0/Nethermind.HashLib.pdb
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/obj/Debug/net5.0/Nethermind.HashLib.csproj.AssemblyReference.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/obj/Debug/net5.0/Nethermind.HashLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/obj/Debug/net5.0/Nethermind.HashLib.AssemblyInfoInputs.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/obj/Debug/net5.0/Nethermind.HashLib.AssemblyInfo.cs
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/obj/Debug/net5.0/Nethermind.HashLib.csproj.CoreCompileInputs.cache
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/obj/Debug/net5.0/Nethermind.HashLib.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/obj/Debug/net5.0/ref/Nethermind.HashLib.dll
+/Users/kdonthi/RiderProjects/nethermind/src/Nethermind/Nethermind.HashLib/obj/Debug/net5.0/Nethermind.HashLib.pdb
