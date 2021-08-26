@@ -49,19 +49,13 @@ namespace Nethermind.JsonRpc.Test.Modules.Eth
 
         public FeeHistoryOracle GetTestFeeHistoryOracle()
         {
-            Transaction tx1FirstBlock = Build.A.Transaction.WithGasPrice(3).TestObject; //Reward: Min (3, 3-2) => 1 
-            Transaction tx2FirstBlock = Build.A.Transaction.WithGasPrice(4).TestObject; //Reward: Min (4, 4-2) => 2
-            // Gas Used and Reward: [(2,1), (5,2)]
-            // Percentile Thresholds: [0, 0, 1, 4, 6]
-            // Percentile Rewards: [1, 1, 1, 2, 2]
+            Transaction tx1FirstBlock = Build.A.Transaction.WithGasPrice(3).TestObject; 
+            Transaction tx2FirstBlock = Build.A.Transaction.WithGasPrice(4).TestObject;
             
             Transaction tx1SecondBlock = Build.A.Transaction.WithMaxPriorityFeePerGas(5).WithMaxFeePerGas(6)
-                .WithType(TxType.EIP1559).TestObject; //Reward: Min (6 - 3, 5) => 3
+                .WithType(TxType.EIP1559).TestObject;
             Transaction tx2SecondBlock = Build.A.Transaction.WithMaxPriorityFeePerGas(2).WithMaxFeePerGas(2)
-                .WithType(TxType.EIP1559).TestObject; //Reward: BaseFee (3) > FeeCap (2) => 0
-            // Gas Used and Reward: [(3,0), (2,3)]
-            // Percentile Thresholds: [0, 0, 1, 3, 4]
-            // Percentile Rewards: [0, 0, 0, 0, 3]
+                .WithType(TxType.EIP1559).TestObject;
             
             Block firstBlock = Build.A.Block.Genesis.WithBaseFeePerGas(2).WithGasUsed(7).WithGasLimit(10)
                 .WithTransactions(tx1FirstBlock, tx2FirstBlock).TestObject;
